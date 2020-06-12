@@ -163,6 +163,7 @@
   width: 250px;
   margin-top: 60px;
   margin-bottom: 0;
+  justify-content: space-between;
 }
 
 .table__heading {
@@ -182,6 +183,7 @@
   background-color: #f2f2f2;
   position: relative;
   z-index: -2;
+  margin-bottom: 0;
 }
 
 .feynman__background-pic {
@@ -222,29 +224,38 @@
   right: 48px;
   color: black;
   text-decoration: none;
+  text-align: center;
 }
 
+.kaufman {
+  background-color: #1f1f1f;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  z-index: -2;
+  overflow: hidden;
+  position: relative;
+}
 
+.section-title_theme_dark {
+  color: white;
+}
 
+.section-subtitle_theme_dark {
+  color: white;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.kaufman__pic {
+  width: 877px;
+  height: 877px;
+  position: absolute;
+  right: -210px;
+  top: 0;
+  z-index: -1;
 }
