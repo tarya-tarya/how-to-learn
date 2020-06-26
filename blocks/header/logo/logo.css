@@ -1,0 +1,14 @@
+
+.logo {
+  width: 183px;
+  height: 32px;
+  background-image: url('../images/logo_place_header');
+  background-repeat: no-repeat;
+  background-size: content;
+}
+
+.logo_place_header {
+  position: absolute;
+  top:30px;
+  left: 64px;
+}
