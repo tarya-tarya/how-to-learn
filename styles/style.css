@@ -421,3 +421,27 @@
   font-size: 18px;
   font-weight: normal;
 }
+
+.video {
+  padding-top: 100px;
+}
+
+.video__iframes {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: -50px;
+}
+
+.video__iframe {
+  margin-right: 20px;
+}
+
+.video__iframe:last-of-type {
+  margin-right: 0;
+}
+
+.oakley {
+  background-color: #f2f2f2;
+}
+
