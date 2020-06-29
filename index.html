@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
 <body>
@@ -20,7 +19,7 @@
        <img class="header__main-illustration"
             src="./images/header-image.png"
             alt="Опять двойка">
-       <div class="header__square-pic"></div>
+       <div class="header__square-pic rotation"></div>
     </header>
     <main class="content">
       <section class="description">
@@ -101,15 +100,15 @@
          <h2 class="section-title">Видео на TED</h2>
          <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
          <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" frameborder="0" allow="accelerometer;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allow="accelerometer;encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
       </section>
       <section class="oakley">
         <div class="two-columns">
             <h3 class="two-columns__brief">История Барбары Оакли.</h3>
             <div class="two-columns__main-text">
-              <p class="two-columns__paragraph oakley__paragraph">С детства Барбаре не давалась математика.
+              <p class="two-columns__paragraph">С детства Барбаре не давалась математика.
                      Она считала себя законченным гуманитарием, причём далеко не самым
                      умным. В армии она изучала русский язык, чтобы получить надбавку,
                      да так успешно, что её выдвинули в командиры. Но для продвижения
@@ -180,13 +179,13 @@
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют
                  процесс обучения миллионов студентов по всему миру.
                  Книгу «Весь мир — школа» нужно прочитать всем, кто
                  занимается образованием — так учащиеся повсюду смогут
                  получить навыки и знания, которые приносят успех в школе,
                  карьере и жизни.
-          </p>
+          </blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -260,7 +259,7 @@
                     количеству и скорости.
              </p>
            </div>
-           <img class="kaufman__triangle"
+           <img class="kaufman__triangle rotation"
                 src="./images/kaufman-triangle.svg"
                 alt="Треугольник">
 
@@ -269,16 +268,16 @@
       <section class="recources">
         <h2 class="section-title">Полезные ресурсы</h2>
         <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="recources__logo-zone">
-          <img src="images/logo/resources-arzamas.svg"
-              class="recources__logo" alt="arzamas">
-          <img src="images/logo/resources-n1.svg"
-              class="recources__logo" alt="n1">
-          <img src="images/logo/resources-strelka.svg"
-              class="recources__logo" alt="strelka">
-          <img src="images/logo/resources-polka.svg"
-              class="recources__logo" alt="polka">
-        </div>
+        <ul class="recources__logo-zone">
+          <li><a href="#"><img src="images/logo/resources-arzamas.svg"
+            class="recources__logo" alt="arzamas"></a></li>
+          <li ><a href="#"><img src="images/logo/resources-n1.svg"
+            class="recources__logo" alt="n1"></a></li>
+          <li><a href="#"><img src="images/logo/resources-strelka.svg"
+            class="recources__logo" alt="strelka"></a></li>
+          <li><a href="#"><img src="images/logo/resources-polka.svg"
+            class="recources__logo" alt="polka"></a></li>
+        </ul>
       </section>
     </main>
     <footer class="footer">

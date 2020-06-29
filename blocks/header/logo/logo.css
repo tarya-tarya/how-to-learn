@@ -1,3 +1,4 @@
+@import url(./_place_header/logo_place_header.css);
 
 .logo {
   width: 183px;
@@ -5,10 +6,4 @@
   background-image: url('../images/logo_place_header');
   background-repeat: no-repeat;
   background-size: content;
-}
-
-.logo_place_header {
-  position: absolute;
-  top:30px;
-  left: 64px;
 }
