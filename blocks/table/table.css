@@ -1,0 +1,17 @@
+@import url(./__cell/table__cell.css);
+@import url(./__cell/_theme/table__cell_theme_dark.css); /*Если файл этого модификатора импортируется только в table__cell,
+       то стили элемента перекрывают стили модификатора. К сожалению, никаких других решений не было найдено, даже в групповом
+       треде с кураторами */
+@import url(./__heading/table__heading.css);
+@import url(./__text/table__text.css);
+
+
+.table {
+  width: 1100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+}
